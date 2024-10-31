@@ -1,0 +1,47 @@
+/* Skills.css */
+.skills {
+    padding: 2rem;
+    background-color: #0d0d0d;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+  }
+  
+  .skillsTitle {
+    font-size: 2rem;
+    color: rgba(0, 255, 255, 0.8);
+    margin-bottom: 1.5rem;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.8), 0 0 20px rgba(0, 255, 255, 0.5);
+  }
+  
+  .skillsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .skillCard {
+    background-color: #1a1a1a;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    text-align: center;
+  }
+  
+  .skillIcon {
+    font-size: 1rem;
+    color: #39ff14;
+    margin-bottom: 0.5rem;
+  }
+  
+  .skillName {
+    font-size: 1.2rem;
+    color: #39ff14;
+    margin-bottom: 0.5rem;
+  }
+  
+  .skillDescription {
+    font-size: 0.9rem;
+    color: #9e9e9e;
+  }
+  
