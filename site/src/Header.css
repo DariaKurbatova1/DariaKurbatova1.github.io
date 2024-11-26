@@ -36,4 +36,64 @@
     color: #39ff14;
     text-shadow: 0 0 8px rgba(255, 255, 0, 0.8);
   }
+  .hamburger {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #0ff;
+    cursor: pointer;
+  }
+  .languageToggle {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: #0ff;
+    background-color: transparent;
+    border: 1px solid #0ff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
   
+  .languageToggle:hover {
+    color: #39ff14;
+    border-color: #39ff14;
+    text-shadow: 0 0 8px rgba(57, 255, 20, 0.8);
+  }
+  
+  .languageToggle:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  }
+  .buttonGroup {
+    display: flex;
+    gap: 0.3rem; 
+  }
+  
+@media (max-width: 768px) {
+  .headerContainer {
+    flex-direction: row;
+    align-items: center; 
+  }
+  
+  .headerNav {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .headerLink {
+    font-size: 1.2rem;
+  }
+  .headerNav.open {
+    display: flex; 
+  }
+  .hamburger {
+    display: block; 
+  }
+  .languageToggle {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+}
